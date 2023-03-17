@@ -1,0 +1,117 @@
+
+
+body {
+    background: gray;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 10%;
+    margin-right: 0%;
+  
+    
+  }
+  
+  header {
+    color:white;
+    text-align: center;
+  
+  }
+  
+  nav {
+    border-bottom: 2px solid orange;
+    width: 100%
+  }
+  
+  ol {
+    padding-left: 0;
+  }
+  
+  .crumb {
+    margin-right: 2em;
+    display: inline;
+  }
+  
+  a {
+    color: orange;
+  }
+  
+  a:visited {
+    color: crimson;
+  }
+  
+  
+  input {
+    display: block;
+  }
+  
+  img {
+    max-width: 500px;
+  }
+  
+  .Classes,
+  .Lessons,
+  .Quote{
+    border: solid;
+    width: 200px;
+    color: black;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .Class-heading,
+  .Class-intro {
+    text-align: center;
+  }
+  
+  .Class {
+    padding: 6em 0;
+    background-size: cover;
+    border-top: solid white;
+    margin: 0;
+    width: 100vw;
+    }
+  
+    .Class-intro {
+      font-family: "Gentium Book Basic", Georgia, serif;
+      font-size: 2em;
+  }
+  .Class-heading {
+      color:white;
+      margin-top: 10px;
+      font-family: "Open Sans", "Helvetica Neue", sans-serif;
+      font-weight: bold;
+      font-size: 6em;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+  }
+  
+  .Class {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  } 
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+  
