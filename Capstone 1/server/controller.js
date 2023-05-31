@@ -7,6 +7,10 @@ module.exports = {
         let randomFact = Fact[randomIndex];
       
         res.status(200).send(randomFact);
-    }
+    },
 
+    addSignin: (req, res) => {
+        console.log(req)
+        res.status(200)
+    }
 }

@@ -12,4 +12,11 @@ const { getFact } = require('./controller')
 
 app.get("/api/fact", getFact);
 
+const { addSignin } = require('./controller')
+
+app.post("/api/signIn", addSignin);
+
+
 app.listen(4000, () => console.log("Server running on 4000"));
+
+
